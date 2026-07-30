@@ -1,0 +1,508 @@
+{
+  "info": {
+    "_postman_id": "c07c2ba7-364a-4af7-8661-5655f5984e6a",
+    "name": "My Collection",
+    "description": "### Welcome to Postman! This is your first collection. \n\nCollections are your starting point for building and testing APIs. You can use this one to:\n\n• Group related requests\n• Test your API in real-world scenarios\n• Document and share your requests\n\nUpdate the name and overview whenever you’re ready to make it yours.\n\n[Learn more about Postman Collections.](https://learning.postman.com/docs/collections/collections-overview/)",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "57026759",
+    "_collection_link": "https://go.postman.co/collection/57026759-c07c2ba7-364a-4af7-8661-5655f5984e6a?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "Prueba Cambio-Moneda",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "https://api.frankfurter.dev/v2/rate/USD/AED",
+          "protocol": "https",
+          "host": [
+            "api",
+            "frankfurter",
+            "dev"
+          ],
+          "path": [
+            "v2",
+            "rate",
+            "USD",
+            "AED"
+          ]
+        }
+      },
+      "response": [
+        {
+          "name": "Prueba Cambio-Moneda",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "https://api.frankfurter.dev/v2/rates",
+              "protocol": "https",
+              "host": [
+                "api",
+                "frankfurter",
+                "dev"
+              ],
+              "path": [
+                "v2",
+                "rates"
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": null,
+          "header": [
+            {
+              "key": ":status",
+              "value": 200
+            },
+            {
+              "key": "date",
+              "value": "Thu, 30 Jul 2026 21:40:52 GMT"
+            },
+            {
+              "key": "content-type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "key": "cache-control",
+              "value": "public, max-age=8348, stale-if-error=86400"
+            },
+            {
+              "key": "nel",
+              "value": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"
+            },
+            {
+              "key": "vary",
+              "value": "Origin"
+            },
+            {
+              "key": "report-to",
+              "value": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=7X19VLzMAv0gfDRSJ0h0wsv5zhrK%2BS1RWso2vBckdvr51UqTe1jon5jvh1FhPTH7KNaA8mfsYP0yRfNoykhVYRiMajWRG0jOVmL9sLM1BmUagw3P9CmwsRXY6CRfPc4OWVMwOnY%3D\"}]}"
+            },
+            {
+              "key": "cf-cache-status",
+              "value": "MISS"
+            },
+            {
+              "key": "etag",
+              "value": "W/\"ceb6ad70df08df4dbd92693f20339747\""
+            },
+            {
+              "key": "content-encoding",
+              "value": "br"
+            },
+            {
+              "key": "server",
+              "value": "cloudflare"
+            },
+            {
+              "key": "cf-ray",
+              "value": "a23786301e09fc81-MIA"
+            }
+          ],
+          "cookie": [],
+          "body": "[\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"AED\",\n        \"rate\": 4.1993\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"AFN\",\n        \"rate\": 75.402\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"ALL\",\n        \"rate\": 93.5\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"AMD\",\n        \"rate\": 418.35\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"ANG\",\n        \"rate\": 2.0468\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"AOA\",\n        \"rate\": 1045.89\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"ARS\",\n        \"rate\": 1710.33\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"AUD\",\n        \"rate\": 1.644\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"AWG\",\n        \"rate\": 2.0487\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"AZN\",\n        \"rate\": 1.9432\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"BAM\",\n        \"rate\": 1.9558\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"BBD\",\n        \"rate\": 2.318\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"BDT\",\n        \"rate\": 141.2\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"BHD\",\n        \"rate\": 0.42994\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"BIF\",\n        \"rate\": 3416.29\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"BMD\",\n        \"rate\": 1.1435\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"BND\",\n        \"rate\": 1.4755\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"BOB\",\n        \"rate\": 13.4965\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"BRL\",\n        \"rate\": 5.8423\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"BSD\",\n        \"rate\": 1.1531\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"BTN\",\n        \"rate\": 109.4\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"BWP\",\n        \"rate\": 15.84\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"BYN\",\n        \"rate\": 3.3295\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"BZD\",\n        \"rate\": 2.3169\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"CAD\",\n        \"rate\": 1.6092\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"CDF\",\n        \"rate\": 2598.16\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"CHF\",\n        \"rate\": 0.93314\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"CLP\",\n        \"rate\": 1066.99\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"CNH\",\n        \"rate\": 7.7291\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"CNY\",\n        \"rate\": 7.7294\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"COP\",\n        \"rate\": 3652.63\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"CRC\",\n        \"rate\": 517.24\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"CUP\",\n        \"rate\": 27.443\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"CVE\",\n        \"rate\": 110.26\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"CZK\",\n        \"rate\": 24.201\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"DJF\",\n        \"rate\": 202.87\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"DKK\",\n        \"rate\": 7.4804\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"DOP\",\n        \"rate\": 67.227\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"DZD\",\n        \"rate\": 152.45\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"EGP\",\n        \"rate\": 58.065\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"ERN\",\n        \"rate\": 17.3439\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"ETB\",\n        \"rate\": 183.28\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"EUR\",\n        \"rate\": 1\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"FJD\",\n        \"rate\": 2.5528\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"FKP\",\n        \"rate\": 0.85737\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"GBP\",\n        \"rate\": 0.85737\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"GEL\",\n        \"rate\": 2.9979\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"GGP\",\n        \"rate\": 0.85737\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"GHS\",\n        \"rate\": 13.2656\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"GIP\",\n        \"rate\": 0.86574\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"GMD\",\n        \"rate\": 83.29\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"GNF\",\n        \"rate\": 10033\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"GTQ\",\n        \"rate\": 8.688\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"GYD\",\n        \"rate\": 241.31\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"HKD\",\n        \"rate\": 8.9756\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"HNL\",\n        \"rate\": 30.514\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"HTG\",\n        \"rate\": 148.84\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"HUF\",\n        \"rate\": 362.37\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"IDR\",\n        \"rate\": 20645\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"ILS\",\n        \"rate\": 3.5094\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"IMP\",\n        \"rate\": 0.85737\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"INR\",\n        \"rate\": 109.4\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"IQD\",\n        \"rate\": 1497.12\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"IRR\",\n        \"rate\": 1570239\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"ISK\",\n        \"rate\": 142.58\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"JEP\",\n        \"rate\": 0.85737\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"JMD\",\n        \"rate\": 178.9\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"JOD\",\n        \"rate\": 0.81071\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"JPY\",\n        \"rate\": 186.76\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"KES\",\n        \"rate\": 147.8\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"KGS\",\n        \"rate\": 99.98\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"KHR\",\n        \"rate\": 4615.65\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"KMF\",\n        \"rate\": 491.04\n    },\n    {\n        \"date\": \"2026-07-23\",\n        \"base\": \"EUR\",\n        \"quote\": \"KPW\",\n        \"rate\": 148.64\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"KRW\",\n        \"rate\": 1651.68\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"KWD\",\n        \"rate\": 0.35311\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"KYD\",\n        \"rate\": 0.95729\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"KZT\",\n        \"rate\": 544.59\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"LAK\",\n        \"rate\": 25810\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"LBP\",\n        \"rate\": 103126\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"LKR\",\n        \"rate\": 383.13\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"LRD\",\n        \"rate\": 206.51\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"LSL\",\n        \"rate\": 18.9647\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"LYD\",\n        \"rate\": 7.3301\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"MAD\",\n        \"rate\": 10.7189\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"MDL\",\n        \"rate\": 20.172\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"MGA\",\n        \"rate\": 4932.48\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"MKD\",\n        \"rate\": 61.692\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"MMK\",\n        \"rate\": 2395.99\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"MNT\",\n        \"rate\": 4109.23\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"MOP\",\n        \"rate\": 9.2449\n    },\n    {\n        \"date\": \"2026-07-29\",\n        \"base\": \"EUR\",\n        \"quote\": \"MRO\",\n        \"rate\": 45.247\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"MRU\",\n        \"rate\": 45.673\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"MUR\",\n        \"rate\": 54.109\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"MVR\",\n        \"rate\": 17.5531\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"MWK\",\n        \"rate\": 1982.79\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"MXN\",\n        \"rate\": 19.9277\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"MYR\",\n        \"rate\": 4.6736\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"MZN\",\n        \"rate\": 72.763\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"NAD\",\n        \"rate\": 19.0143\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"NGN\",\n        \"rate\": 1557.88\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"NIO\",\n        \"rate\": 41.92\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"NOK\",\n        \"rate\": 10.9999\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"NPR\",\n        \"rate\": 175.02\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"NZD\",\n        \"rate\": 1.9696\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"OMR\",\n        \"rate\": 0.43966\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"PAB\",\n        \"rate\": 1.1433\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"PEN\",\n        \"rate\": 3.8837\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"PGK\",\n        \"rate\": 5.0692\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"PHP\",\n        \"rate\": 70.272\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"PKR\",\n        \"rate\": 318.63\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"PLN\",\n        \"rate\": 4.3213\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"PYG\",\n        \"rate\": 6826\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"QAR\",\n        \"rate\": 4.1622\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"RON\",\n        \"rate\": 5.2431\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"RSD\",\n        \"rate\": 117.63\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"RUB\",\n        \"rate\": 90.89\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"RWF\",\n        \"rate\": 1676.83\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"SAR\",\n        \"rate\": 4.288\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"SBD\",\n        \"rate\": 9.1857\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"SCR\",\n        \"rate\": 16.0114\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"SDG\",\n        \"rate\": 684.45\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"SEK\",\n        \"rate\": 11.0484\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"SGD\",\n        \"rate\": 1.4755\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"SHP\",\n        \"rate\": 0.85737\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"SLE\",\n        \"rate\": 27.516\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"SOS\",\n        \"rate\": 650.74\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"SRD\",\n        \"rate\": 43.162\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"SSP\",\n        \"rate\": 5737\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"STN\",\n        \"rate\": 24.518\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"SVC\",\n        \"rate\": 9.9674\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"SYP\",\n        \"rate\": 139.52\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"SZL\",\n        \"rate\": 18.9534\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"THB\",\n        \"rate\": 38.366\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"TJS\",\n        \"rate\": 10.558\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"TMT\",\n        \"rate\": 4.0021\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"TND\",\n        \"rate\": 3.3818\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"TOP\",\n        \"rate\": 2.7072\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"TRY\",\n        \"rate\": 54.206\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"TTD\",\n        \"rate\": 7.7161\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"TWD\",\n        \"rate\": 37.075\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"TZS\",\n        \"rate\": 3018.85\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"UAH\",\n        \"rate\": 51.223\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"UGX\",\n        \"rate\": 4276.13\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"USD\",\n        \"rate\": 1.1435\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"UYU\",\n        \"rate\": 45.975\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"UZS\",\n        \"rate\": 13764\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"VES\",\n        \"rate\": 851.25\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"VND\",\n        \"rate\": 30011\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"VUV\",\n        \"rate\": 135.73\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"WST\",\n        \"rate\": 3.1073\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"XAF\",\n        \"rate\": 655.96\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"XAG\",\n        \"rate\": 0.01983\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"XAU\",\n        \"rate\": 0.00028\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"XCD\",\n        \"rate\": 3.1246\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"XCG\",\n        \"rate\": 2.0453\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"XDR\",\n        \"rate\": 0.84221\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"XOF\",\n        \"rate\": 655.96\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"XPD\",\n        \"rate\": 0.00091\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"XPF\",\n        \"rate\": 118.85\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"XPT\",\n        \"rate\": 0.00071\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"YER\",\n        \"rate\": 272.59\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"ZAR\",\n        \"rate\": 19.0464\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"ZMW\",\n        \"rate\": 21.464\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"EUR\",\n        \"quote\": \"ZWG\",\n        \"rate\": 30.39\n    }\n]"
+        },
+        {
+          "name": "Prueba Cambio-Moneda",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "https://api.frankfurter.dev/v2/rates?base=USD",
+              "protocol": "https",
+              "host": [
+                "api",
+                "frankfurter",
+                "dev"
+              ],
+              "path": [
+                "v2",
+                "rates"
+              ],
+              "query": [
+                {
+                  "key": "base",
+                  "value": "USD"
+                }
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": null,
+          "header": [
+            {
+              "key": ":status",
+              "value": 200
+            },
+            {
+              "key": "date",
+              "value": "Thu, 30 Jul 2026 21:42:09 GMT"
+            },
+            {
+              "key": "content-type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "key": "cache-control",
+              "value": "public, max-age=12404, stale-if-error=86400"
+            },
+            {
+              "key": "nel",
+              "value": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"
+            },
+            {
+              "key": "vary",
+              "value": "Origin"
+            },
+            {
+              "key": "age",
+              "value": "4131"
+            },
+            {
+              "key": "report-to",
+              "value": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=2elY5gsN8hfZ0OhCP6tEtMDO7BgdB2u8SalCj5ilBTw4ytqw1btMnm209cr0YlWm3uXdwg0cTM7nbLOeWGmlU3NiB6GtiUY3wtBKYwR2ZBDxOfU9HSaG9GihI%2FvCKtUzHcQBSfg%3D\"}]}"
+            },
+            {
+              "key": "cf-cache-status",
+              "value": "HIT"
+            },
+            {
+              "key": "etag",
+              "value": "W/\"ceb6ad70df08df4dbd92693f20339747\""
+            },
+            {
+              "key": "content-encoding",
+              "value": "br"
+            },
+            {
+              "key": "server",
+              "value": "cloudflare"
+            },
+            {
+              "key": "cf-ray",
+              "value": "a237881529e923d7-MIA"
+            }
+          ],
+          "cookie": [],
+          "body": "[\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"AED\",\n        \"rate\": 3.6725\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"AFN\",\n        \"rate\": 65.942\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"ALL\",\n        \"rate\": 81.77\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"AMD\",\n        \"rate\": 365.86\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"ANG\",\n        \"rate\": 1.79\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"AOA\",\n        \"rate\": 914.67\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"ARS\",\n        \"rate\": 1495.76\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"AUD\",\n        \"rate\": 1.4377\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"AWG\",\n        \"rate\": 1.7917\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"AZN\",\n        \"rate\": 1.6994\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"BAM\",\n        \"rate\": 1.7105\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"BBD\",\n        \"rate\": 2.0272\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"BDT\",\n        \"rate\": 123.48\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"BHD\",\n        \"rate\": 0.376\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"BIF\",\n        \"rate\": 2987.69\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"BMD\",\n        \"rate\": 1\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"BND\",\n        \"rate\": 1.2903\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"BOB\",\n        \"rate\": 11.8032\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"BRL\",\n        \"rate\": 5.1093\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"BSD\",\n        \"rate\": 1.0084\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"BTN\",\n        \"rate\": 95.67\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"BWP\",\n        \"rate\": 13.8527\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"BYN\",\n        \"rate\": 2.9118\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"BZD\",\n        \"rate\": 2.0262\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"CAD\",\n        \"rate\": 1.4073\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"CDF\",\n        \"rate\": 2272.2\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"CHF\",\n        \"rate\": 0.81607\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"CLP\",\n        \"rate\": 933.12\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"CNH\",\n        \"rate\": 6.7594\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"CNY\",\n        \"rate\": 6.7597\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"COP\",\n        \"rate\": 3194.37\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"CRC\",\n        \"rate\": 452.34\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"CUP\",\n        \"rate\": 24\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"CVE\",\n        \"rate\": 96.43\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"CZK\",\n        \"rate\": 21.165\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"DJF\",\n        \"rate\": 177.42\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"DKK\",\n        \"rate\": 6.5419\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"DOP\",\n        \"rate\": 58.793\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"DZD\",\n        \"rate\": 133.32\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"EGP\",\n        \"rate\": 50.78\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"ERN\",\n        \"rate\": 15.168\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"ETB\",\n        \"rate\": 160.28\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"EUR\",\n        \"rate\": 0.87454\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"FJD\",\n        \"rate\": 2.2326\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"FKP\",\n        \"rate\": 0.7498\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"GBP\",\n        \"rate\": 0.7498\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"GEL\",\n        \"rate\": 2.6218\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"GGP\",\n        \"rate\": 0.7498\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"GHS\",\n        \"rate\": 11.6013\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"GIP\",\n        \"rate\": 0.75712\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"GMD\",\n        \"rate\": 72.844\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"GNF\",\n        \"rate\": 8774\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"GTQ\",\n        \"rate\": 7.598\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"GYD\",\n        \"rate\": 211.04\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"HKD\",\n        \"rate\": 7.8495\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"HNL\",\n        \"rate\": 26.686\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"HTG\",\n        \"rate\": 130.16\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"HUF\",\n        \"rate\": 316.9\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"IDR\",\n        \"rate\": 18055\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"ILS\",\n        \"rate\": 3.0691\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"IMP\",\n        \"rate\": 0.7498\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"INR\",\n        \"rate\": 95.67\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"IQD\",\n        \"rate\": 1309.29\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"IRR\",\n        \"rate\": 1373238\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"ISK\",\n        \"rate\": 124.69\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"JEP\",\n        \"rate\": 0.7498\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"JMD\",\n        \"rate\": 156.46\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"JOD\",\n        \"rate\": 0.709\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"JPY\",\n        \"rate\": 163.33\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"KES\",\n        \"rate\": 129.26\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"KGS\",\n        \"rate\": 87.43\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"KHR\",\n        \"rate\": 4036.57\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"KMF\",\n        \"rate\": 429.43\n    },\n    {\n        \"date\": \"2026-07-23\",\n        \"base\": \"USD\",\n        \"quote\": \"KPW\",\n        \"rate\": 129.99\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"KRW\",\n        \"rate\": 1444.46\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"KWD\",\n        \"rate\": 0.30881\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"KYD\",\n        \"rate\": 0.83719\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"KZT\",\n        \"rate\": 476.26\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"LAK\",\n        \"rate\": 22572\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"LBP\",\n        \"rate\": 90188\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"LKR\",\n        \"rate\": 335.06\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"LRD\",\n        \"rate\": 180.6\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"LSL\",\n        \"rate\": 16.5854\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"LYD\",\n        \"rate\": 6.4105\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"MAD\",\n        \"rate\": 9.3741\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"MDL\",\n        \"rate\": 17.6416\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"MGA\",\n        \"rate\": 4313.65\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"MKD\",\n        \"rate\": 53.952\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"MMK\",\n        \"rate\": 2095.39\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"MNT\",\n        \"rate\": 3593.68\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"MOP\",\n        \"rate\": 8.085\n    },\n    {\n        \"date\": \"2026-07-29\",\n        \"base\": \"USD\",\n        \"quote\": \"MRO\",\n        \"rate\": 39.57\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"MRU\",\n        \"rate\": 39.942\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"MUR\",\n        \"rate\": 47.32\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"MVR\",\n        \"rate\": 15.3509\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"MWK\",\n        \"rate\": 1734.03\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"MXN\",\n        \"rate\": 17.4275\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"MYR\",\n        \"rate\": 4.0873\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"MZN\",\n        \"rate\": 63.634\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"NAD\",\n        \"rate\": 16.6288\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"NGN\",\n        \"rate\": 1362.43\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"NIO\",\n        \"rate\": 36.661\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"NOK\",\n        \"rate\": 9.6198\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"NPR\",\n        \"rate\": 153.06\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"NZD\",\n        \"rate\": 1.7225\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"OMR\",\n        \"rate\": 0.3845\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"PAB\",\n        \"rate\": 0.99987\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"PEN\",\n        \"rate\": 3.3965\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"PGK\",\n        \"rate\": 4.4332\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"PHP\",\n        \"rate\": 61.456\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"PKR\",\n        \"rate\": 278.65\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"PLN\",\n        \"rate\": 3.7792\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"PYG\",\n        \"rate\": 5970\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"QAR\",\n        \"rate\": 3.64\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"RON\",\n        \"rate\": 4.5853\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"RSD\",\n        \"rate\": 102.87\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"RUB\",\n        \"rate\": 79.49\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"RWF\",\n        \"rate\": 1466.45\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"SAR\",\n        \"rate\": 3.75\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"SBD\",\n        \"rate\": 8.0333\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"SCR\",\n        \"rate\": 14.0027\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"SDG\",\n        \"rate\": 598.58\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"SEK\",\n        \"rate\": 9.6623\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"SGD\",\n        \"rate\": 1.2903\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"SHP\",\n        \"rate\": 0.7498\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"SLE\",\n        \"rate\": 24.064\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"SOS\",\n        \"rate\": 569.1\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"SRD\",\n        \"rate\": 37.747\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"SSP\",\n        \"rate\": 5017\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"STN\",\n        \"rate\": 21.442\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"SVC\",\n        \"rate\": 8.7169\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"SYP\",\n        \"rate\": 122.02\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"SZL\",\n        \"rate\": 16.5755\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"THB\",\n        \"rate\": 33.553\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"TJS\",\n        \"rate\": 9.2334\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"TMT\",\n        \"rate\": 3.5\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"TND\",\n        \"rate\": 2.9576\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"TOP\",\n        \"rate\": 2.3675\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"TRY\",\n        \"rate\": 47.405\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"TTD\",\n        \"rate\": 6.748\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"TWD\",\n        \"rate\": 32.423\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"TZS\",\n        \"rate\": 2640.1\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"UAH\",\n        \"rate\": 44.797\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"UGX\",\n        \"rate\": 3739.65\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"USD\",\n        \"rate\": 1\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"UYU\",\n        \"rate\": 40.207\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"UZS\",\n        \"rate\": 12037\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"VES\",\n        \"rate\": 744.45\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"VND\",\n        \"rate\": 26245\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"VUV\",\n        \"rate\": 118.7\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"WST\",\n        \"rate\": 2.7174\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"XAF\",\n        \"rate\": 573.66\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"XAG\",\n        \"rate\": 0.01734\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"XAU\",\n        \"rate\": 0.00025\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"XCD\",\n        \"rate\": 2.7326\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"XCG\",\n        \"rate\": 1.7887\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"XDR\",\n        \"rate\": 0.73654\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"XOF\",\n        \"rate\": 573.66\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"XPD\",\n        \"rate\": 0.00079\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"XPF\",\n        \"rate\": 103.94\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"XPT\",\n        \"rate\": 0.00062\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"YER\",\n        \"rate\": 238.39\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"ZAR\",\n        \"rate\": 16.6568\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"ZMW\",\n        \"rate\": 18.7711\n    },\n    {\n        \"date\": \"2026-07-30\",\n        \"base\": \"USD\",\n        \"quote\": \"ZWG\",\n        \"rate\": 26.577\n    }\n]"
+        },
+        {
+          "name": "Prueba error 400 malformulada",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "https://api.frankfurter.dev/v1/latest?from=USD&to=COP",
+              "protocol": "https",
+              "host": [
+                "api",
+                "frankfurter",
+                "dev"
+              ],
+              "path": [
+                "v1",
+                "latest"
+              ],
+              "query": [
+                {
+                  "key": "from",
+                  "value": "USD"
+                },
+                {
+                  "key": "to",
+                  "value": "COP"
+                }
+              ]
+            }
+          },
+          "status": "Not Found",
+          "code": 404,
+          "_postman_previewlanguage": null,
+          "header": [
+            {
+              "key": ":status",
+              "value": 404
+            },
+            {
+              "key": "date",
+              "value": "Thu, 30 Jul 2026 21:43:20 GMT"
+            },
+            {
+              "key": "content-type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "key": "content-length",
+              "value": "23"
+            },
+            {
+              "key": "cache-control",
+              "value": "no-store"
+            },
+            {
+              "key": "vary",
+              "value": "Origin"
+            },
+            {
+              "key": "cf-cache-status",
+              "value": "BYPASS"
+            },
+            {
+              "key": "nel",
+              "value": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"
+            },
+            {
+              "key": "report-to",
+              "value": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=bWE8EB1V4ezrgjxzl5QbMGqQ0PBc3hcAzjAPOyzPyyKSk6TR9Rv4O9QqWS%2BGRjbFETa%2F%2FbHi9AUIOOPCKZTCtgKSLivAM41MVSs6mJ0ncw747t2JmRzCgbBaY1t0zQQB1vXJ%2BhQ%3D\"}]}"
+            },
+            {
+              "key": "server",
+              "value": "cloudflare"
+            },
+            {
+              "key": "cf-ray",
+              "value": "a23789cccba238e7-MIA"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n    \"message\": \"not found\"\n}"
+        },
+        {
+          "name": "Prueba Cambio-Moneda USD-COP",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "https://api.frankfurter.dev/v2/rate/USD/COP",
+              "protocol": "https",
+              "host": [
+                "api",
+                "frankfurter",
+                "dev"
+              ],
+              "path": [
+                "v2",
+                "rate",
+                "USD",
+                "COP"
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": null,
+          "header": [
+            {
+              "key": ":status",
+              "value": 200
+            },
+            {
+              "key": "date",
+              "value": "Thu, 30 Jul 2026 21:44:18 GMT"
+            },
+            {
+              "key": "content-type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "key": "cache-control",
+              "value": "public, max-age=11860, stale-if-error=86400"
+            },
+            {
+              "key": "vary",
+              "value": "Origin"
+            },
+            {
+              "key": "age",
+              "value": "3716"
+            },
+            {
+              "key": "report-to",
+              "value": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=mqb%2Fq%2Fw3j0Q83yS4n3TCqJ2ZiCTOn9Mc2NS07ktSjEEk04MxijGmsOfuXPTqTIoG9lSWbAHeOCixoFxTZvBnOFep79Vn0QxwcWa9qLf%2B27nUsMjOWjnfj3AoCWkjGbDpEJCO6ys%3D\"}]}"
+            },
+            {
+              "key": "last-modified",
+              "value": "Thu, 30 Jul 2026 20:42:21 GMT"
+            },
+            {
+              "key": "cf-cache-status",
+              "value": "HIT"
+            },
+            {
+              "key": "nel",
+              "value": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"
+            },
+            {
+              "key": "content-encoding",
+              "value": "br"
+            },
+            {
+              "key": "server",
+              "value": "cloudflare"
+            },
+            {
+              "key": "cf-ray",
+              "value": "a2378b395e1f38e7-MIA"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n    \"date\": \"2026-07-30\",\n    \"base\": \"USD\",\n    \"quote\": \"COP\",\n    \"rate\": 3194.37\n}"
+        },
+        {
+          "name": "Prueba error recurso no encontrado",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "https://api.frankfurter.dev/v2/rate/USD/ADS",
+              "protocol": "https",
+              "host": [
+                "api",
+                "frankfurter",
+                "dev"
+              ],
+              "path": [
+                "v2",
+                "rate",
+                "USD",
+                "ADS"
+              ]
+            }
+          },
+          "status": "Unprocessable Entity (WebDAV) (RFC 4918)",
+          "code": 422,
+          "_postman_previewlanguage": null,
+          "header": [
+            {
+              "key": ":status",
+              "value": 422
+            },
+            {
+              "key": "date",
+              "value": "Thu, 30 Jul 2026 21:47:24 GMT"
+            },
+            {
+              "key": "content-type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "key": "content-length",
+              "value": "48"
+            },
+            {
+              "key": "vary",
+              "value": "Origin"
+            },
+            {
+              "key": "cache-control",
+              "value": "no-store"
+            },
+            {
+              "key": "cf-cache-status",
+              "value": "BYPASS"
+            },
+            {
+              "key": "nel",
+              "value": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"
+            },
+            {
+              "key": "report-to",
+              "value": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=sXktqkqGkNs%2B2FobrMoTFalgPTqs9DUbntXGMyppe5yntfRyZjbq0l7kpEQVEbonXFrSH79nYJRe6JRvN4vm5UC0roGDUlPYW5yfjxN8fIS6I%2FzD7VP8rQ3%2FQlOg325imGUfpfw%3D\"}]}"
+            },
+            {
+              "key": "server",
+              "value": "cloudflare"
+            },
+            {
+              "key": "cf-ray",
+              "value": "a2378fc1fd43dfa0-MIA"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n    \"status\": 422,\n    \"message\": \"invalid currency: ADS\"\n}"
+        },
+        {
+          "name": "Prueba Cambio-Moneda USD-AED",
+          "originalRequest": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "https://api.frankfurter.dev/v2/rate/USD/AED",
+              "protocol": "https",
+              "host": [
+                "api",
+                "frankfurter",
+                "dev"
+              ],
+              "path": [
+                "v2",
+                "rate",
+                "USD",
+                "AED"
+              ]
+            }
+          },
+          "status": "OK",
+          "code": 200,
+          "_postman_previewlanguage": null,
+          "header": [
+            {
+              "key": ":status",
+              "value": 200
+            },
+            {
+              "key": "date",
+              "value": "Thu, 30 Jul 2026 21:48:26 GMT"
+            },
+            {
+              "key": "content-type",
+              "value": "application/json; charset=utf-8"
+            },
+            {
+              "key": "cache-control",
+              "value": "public, max-age=7894, stale-if-error=86400"
+            },
+            {
+              "key": "vary",
+              "value": "Origin"
+            },
+            {
+              "key": "report-to",
+              "value": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=hbMI2GF7gCgOFCtdJl3IgRg%2FoZxT21F%2BZHQfLtP6CuAprkriq7OJhCXbnzSyv2z0asZwQIGIrQg6JT%2F0pXrGdQcL8%2Fmn55nEjchsXAFb%2FZJkM9xBx57UvfiGe5EAiJEMri%2Frqnc%3D\"}]}"
+            },
+            {
+              "key": "last-modified",
+              "value": "Thu, 30 Jul 2026 21:48:26 GMT"
+            },
+            {
+              "key": "cf-cache-status",
+              "value": "MISS"
+            },
+            {
+              "key": "nel",
+              "value": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}"
+            },
+            {
+              "key": "content-encoding",
+              "value": "br"
+            },
+            {
+              "key": "server",
+              "value": "cloudflare"
+            },
+            {
+              "key": "cf-ray",
+              "value": "a237914539fb35b7-MIA"
+            }
+          ],
+          "cookie": [],
+          "body": "{\n    \"date\": \"2026-07-30\",\n    \"base\": \"USD\",\n    \"quote\": \"AED\",\n    \"rate\": 3.6725\n}"
+        }
+      ]
+    }
+  ]
+}
