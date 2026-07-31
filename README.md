@@ -1,6 +1,6 @@
 # Prueba Técnica - Analista de Soporte Nivel 1 - Infodec
 
-Aplicación web desarrollada para Sofía Restrepo, que permite consultar la población de las ciudades de un país seleccionado, usando la base de datos **World** de MySQL.
+Aplicación web desarrollada para Sofía Restrepo, que permite consultar la población de las ciudades de un país seleccionado, usando la base de datos World de MySQL.
 
 ## Descripción del proyecto
 
@@ -19,7 +19,7 @@ La interfaz es responsive, por lo que puede usarse desde computador, tablet o te
 - Bootstrap 5
 - Postman
 
-## 📁 Estructura del proyecto
+## Estructura del proyecto
 
 prueba-infodec/
 ├── docker-compose.yml       # Orquestación de contenedores (MySQL, phpMyAdmin, App)
@@ -45,6 +45,6 @@ prueba-infodec/
 ## Requisitos previos
 - Tener [Docker](https://www.docker.com/products/docker-desktop/) instalado y corriendo.
 
-## 📝 Notas de desarrollo
+## Notas de desarrollo
 
 El historial de commits refleja el desarrollo incremental del proyecto: configuración de entorno, modelos, controlador, rutas, vista y documentación.
