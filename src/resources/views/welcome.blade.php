@@ -6,7 +6,7 @@
 <title>Explorador de Población Mundial</title>
 
 <!-- Importamos 3 tipografías desde Google Fonts:
-     - Fraunces: para el título principal (le da personalidad)
+     - Fraunces: para el título principal 
      - IBM Plex Sans: para los textos normales
      - IBM Plex Mono: para los números de población (estilo "de datos") -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -114,8 +114,7 @@ h1 em{
   transform:rotate(-8deg); /* lo inclina un poco para que no se vea "perfecto" */
   transition:transform .35s ease, color .35s ease, border-color .35s ease;
 }
-/* Estado "activo": se aplica con JavaScript cuando el usuario
-   ya eligió un país (ver más abajo, stamp.classList.add('active')) */
+/* Estado "activo": se aplica con JavaScript cuando el usuario ya eligió un país  */
 .stamp.active{
   color:var(--gold);
   border-color:var(--gold);
